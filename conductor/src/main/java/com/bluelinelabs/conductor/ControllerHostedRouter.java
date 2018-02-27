@@ -204,8 +204,8 @@ class ControllerHostedRouter extends Router {
 
     @Override
     void setControllerRouter(@NonNull Controller controller) {
-        super.setControllerRouter(controller);
         controller.setParentController(hostController);
+        super.setControllerRouter(controller);
     }
 
     int getHostId() {
