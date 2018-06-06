@@ -30,7 +30,7 @@ dependencies {
     testImplementation rootProject.ext.junit
     testImplementation rootProject.ext.roboelectric
 
-    implementation rootProject.ext.supportAppCompat
+    implementation rootProject.ext.supportV4
     implementation project(':conductor')
 }
 

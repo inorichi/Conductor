@@ -41,7 +41,8 @@ ext {
 
     autodispose = "com.uber.autodispose:autodispose:$autodisposeVersion"
 
-    archComopnentsLifecycle = "android.arch.lifecycle:runtime:$archComponentsVersion"
+    archComponentsLifecycle = "android.arch.lifecycle:runtime:$archComponentsVersion"
+    archComponentsLiveDataCore = "android.arch.lifecycle:livedata-core:$archComponentsVersion"
 
     junit = "junit:junit:$junitVersion"
     roboelectric = "org.robolectric:robolectric:$roboelectricVersion"

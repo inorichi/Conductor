@@ -20,7 +20,7 @@ android {
 }
 
 dependencies {
-    api rootProject.ext.archComopnentsLifecycle
+    api rootProject.ext.archComponentsLifecycle
 
     implementation project(':conductor')
 }

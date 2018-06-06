@@ -33,6 +33,8 @@ dependencies {
     implementation rootProject.ext.supportV4
     implementation rootProject.ext.supportDesign
 
+    implementation rootProject.ext.archComponentsLiveDataCore // Fix duplicate classes
+
     annotationProcessor rootProject.ext.butterknifeCompiler
     implementation rootProject.ext.butterknife
     implementation rootProject.ext.picasso
